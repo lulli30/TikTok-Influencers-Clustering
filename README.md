@@ -26,13 +26,13 @@ pip install -r requirements.txt
 3. **View results**: The updated dataset `Updated_Top_100_TikTok_Influencers_2025.csv` will be generated.
 
 ## Sample Data (First 5 Rows)
-```
-Rank	Username	Followers	Following	Uploads	Likes	Cluster	Cluster_Label
-1	Khabane lame	162400000	78	1251	2500000000	-1	Outliers (High Followers)
-2	charli d'amelio	155700000	1304	2812	11800000000	-1	Outliers (High Followers)
-3	MrBeast	107500000	362	394	1100000000	-1	Outliers (High Followers)
-4	Bella Poarch	94300000	649	771	2400000000	-1	Outliers (High Followers)
-```
+
+| Rank | Username        | Followers  | Following | Uploads | Likes       | Cluster | Cluster_Label              |
+|------|---------------|------------|-----------|---------|------------|---------|----------------------------|
+| 1    | Khabane lame  | 162400000  | 78        | 1251    | 2500000000  | -1      | Outliers (High Followers)  |
+| 2    | charli d'amelio | 155700000  | 1304      | 2812    | 11800000000 | -1      | Outliers (High Followers)  |
+| 3    | MrBeast       | 107500000  | 362       | 394     | 1100000000  | -1      | Outliers (High Followers)  |
+| 4    | Bella Poarch  | 94300000   | 649       | 771     | 2400000000  | -1      | Outliers (High Followers)  |
 
 ## Output
 - Clustered dataset with meaningful labels.
